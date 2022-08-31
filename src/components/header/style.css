@@ -1,0 +1,14 @@
+header {
+  position: fixed;
+  top: 0;
+  height: 50px;
+  background-color: #2a10b1;
+  width: 100%;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+}
+.header-text {
+  color: white;
+  font-size: 20px;
+}

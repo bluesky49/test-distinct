@@ -1,0 +1,36 @@
+table {
+  width: 100%;
+}
+table, th, td {
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+.table-container {
+  padding: 20px;
+  max-width: 800px;
+}
+.custom-header {
+  background-color: #1469ad;
+  border-color: white;
+  color: white;
+}
+.custom-cell {
+  border: 1px dotted #6276a3;
+}
+.last-row {
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+}
+.company-name {
+  margin-bottom: 20px;
+  display: flex;
+}
+.company-name div {
+  width: 150px;
+  margin-left: 10px;
+  border-bottom: 1px solid;
+}

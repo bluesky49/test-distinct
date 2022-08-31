@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.body {
+  padding-top: 50px;
+  flex: 1;
+}
+.content {
+  max-width: 1200px;
+  width: 100%;
+  padding: 20px;
+  margin: auto;
+}
+.description {
+  display: flex;
+}
+.upload-button {
+  background-color: #4746e0;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  padding: 0 20px;
+  height: 40px;
+  margin-top: 20px;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+}
+.preview {
+  margin: 20px 0;
+}
+.generate-invoice {
+  background-color: #009489;
+  margin-bottom: 20px;
+}
